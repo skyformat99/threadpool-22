@@ -1,0 +1,9 @@
+2018.9.12 ±àÒëÃüÁî
+
+g++ myserver.cpp str_echo.cpp my_unp.cpp my_err.cpp condition.cpp threadpool.cpp -lpthread -o server
+
+g++ myclient-easy.cpp my_unp.cpp my_err.cpp -o client
+
+./server
+
+./client 127.0.0.1
